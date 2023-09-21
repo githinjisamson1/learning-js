@@ -46,7 +46,7 @@
 //   console.log(`hello world`);
 // }
 
-// variable hoisting
+// variable hoisting, !!! const and let do not support hoisting !!!
 // console.log(a);
 // var a = 5;
 

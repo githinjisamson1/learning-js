@@ -4,8 +4,8 @@
 
 // console.log(typeof fruits); //data type
 // console.log(fruits[0]); //access first element using bracket notation
-// console.log(fruits.pop()); //remove last element and return it
-// console.log(fruits.shift()); //remove first element and return it
+// console.log(fruits.pop()); //remove last element and returns it
+// console.log(fruits.shift()); //remove first element and returns it
 // console.log(fruits.push("orange")); //append to end of array
 // console.log(fruits.unshift("mango")); //insert element at start of array
 // fruits[1] = "pineapple"; //change elements of an array
@@ -68,7 +68,7 @@
 // // js is case sensitive
 // // + / - to span accross multiple lines
 // console.log(firstname.length);
-// const a = new String("hello");  //string object, avoid
+// const a = new String("hello");  //string object, avoid, slows down the program
 // console.log(firstname.split(""))
 // // check on string methods
 // // \ to include special characters, \"Peter"

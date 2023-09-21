@@ -32,7 +32,7 @@
 //     console.log(`Invalid name`);
 // }
 
-// TODO: for loop - when the number of iterations is known
+// TODO: for loop - when the number of iterations is known, based on a specified condition
 // output hello 5 times
 // for (let i = 1; i <= 5; i++) {
 //   console.log(`Hello ${i}`);

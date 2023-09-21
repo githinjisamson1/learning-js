@@ -113,7 +113,7 @@
 // const name = "John";
 // console.log(`hello ${name}`);
 
-// TODO: spread operator with arrays
+// TODO: spread operator with arrays, used to copy arrays/clone
 // const array1 = [1, 2, 3];
 // const array2 = ["a", "b", "c", ...array1]; //copy array, clone
 // console.log(array2);
@@ -231,7 +231,7 @@
 // const weakSet1 = new WeakSet();
 // weakSet1.add(obj1);
 // weakSet1.add(obj2);
-// weakSet1.add("hello")    //only contains objects
+// weakSet1.add("hello")    //WeakSet only contains objects
 // weakSet1.delete(obj2);
 // console.log(weakSet1.has(obj2));
 // WeakSets are not iterable
@@ -279,7 +279,7 @@
 // const [x, [y, z]] = arrValue
 // const {name, hobbies:{read, playGame}} = person
 
-// TODO: classes
+// TODO: classes - blueprint/template of an object
 // class Person {
 //   //define class
 //   constructor(name, age) {
@@ -309,7 +309,7 @@
 // // hoisting is not suported in classes
 // // all code inside a class is automatically in strict mode
 
-// inheritance - code reusability
+// inheritance - code reusability / DRY
 
 // class Animal {
 //   //super class
@@ -358,9 +358,9 @@
 // }
 
 // iterate set
-// const set1=new Set([1,2, 3,4, 5])
+// const set1 = new Set([1, 2, 3, 4, 5])
 
-// for(item of){
+// for(item of set1){
 //     console.log(item)
 // }
 
@@ -374,6 +374,7 @@
 // for...of | for...in
 // iterates values of an iterable | iterates keys of an object
 // cannot be used to iterate an object | avoid using for...in for iterables
+// maintains order | does not maintain order
 
 // TODO: proxies - used to add custom behavior to functions or objects
 
@@ -480,5 +481,3 @@
 // const proxy6 = new Proxy({}, handler);
 // proxy6.name = "John";    //execute this function
 // proxy6.age = 25; //can only access name property
-
-

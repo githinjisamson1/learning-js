@@ -1,9 +1,9 @@
-// running js - console, node.js, <script></script> i.e. web pages
+// running js - browser console, node.js, <script></script> i.e. web pages
 
 // TODO: variables
 // const pi = 3.14;    //constant
 // let name = "Samson";    //es6, block scope
-// var number = 123;   //old method, function scope
+// var number = 123;   //old method, function scope/local scope
 
 // TODO: console.log() - debugging, output
 // const developer = "Samson";

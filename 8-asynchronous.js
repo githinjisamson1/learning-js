@@ -46,13 +46,13 @@
 //   console.log("executing callback function");
 // };
 
-// passing cb as parameter
+// passing cb as a parameter
 // const greet = (name, cb) => {
 //   console.log(`hello ${name}`);
 //   cb();
 // };
 
-// passing callback as argument
+// passing callback as an argument
 // greet("John", callback);
 
 // TODO: using callback to wait for a result that takes time
@@ -123,7 +123,7 @@
 //   console.log(result);
 // });
 
-// TODO: await keyword
+// TODO: await keyword, can only be used inside async function
 // const promise = new Promise((resolve, reject) => {
 //   setTimeout(() => {
 //     resolve("promise resolved");
@@ -143,7 +143,7 @@
 
 // asyncFunction();
 
-// TODO: setInterval()
+// TODO: setInterval() - do something at intervals of specified time
 // const id = setInterval(() => {
 //   console.log("hello");
 // }, 2000);
@@ -158,7 +158,7 @@
 // };
 
 // const id = setInterval(showTime, 2000);
-// clearInterval(id);
+// clearInterval(id);   //cancel setInterval() execution
 
 // TODO: stop setInterval after displaying time 5 times
 // let count = 0;

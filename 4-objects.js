@@ -56,7 +56,7 @@
 // TODO: object literal - to create a single object
 // constructor function - to create multiple unique objects
 // case: object1, object2 derived from object1, object2 = object1
-// any change on object2 reflects in object1
+// any change on object2 reflects in object1 (disadvantage of object literal)
 
 // TODO: adding properties and methods in an object
 // person1.gender = "male";
