@@ -375,7 +375,7 @@
 // iterates values of an iterable | iterates keys of an object
 // cannot be used to iterate an object | avoid using for...in for iterables
 
-// TODO: proxies - used to create user defined functions or objects
+// TODO: proxies - used to add custom behavior to functions or objects
 
 // target object
 // const student = {
@@ -426,3 +426,59 @@
 // console.log(proxy3);
 
 // TODO: uses of proxy
+// for validation
+// const student = {
+//   name: "John",
+//   age: 25,
+// };
+
+// const handler = {
+//   get(obj, prop) {
+//     if (prop == "name") {
+//       return obj[prop];
+//     }
+//     return "Not allowed";
+//   },
+// };
+
+// const proxy4 = new Proxy(student, handler);
+// console.log(proxy4.name);    //John
+// console.log(proxy4.age); //Not allowed
+
+// TODO: read only view of an object
+// const student = {
+//   name: "John",
+//   age: 25,
+// };
+
+// const handler = {
+//   set(obj, prop, value) {
+//     if (obj[prop]) {
+//       console.log("read only");
+//     }
+//   },
+// };
+
+// const proxy5 = new Proxy(student, handler);
+// proxy5.name = "Doe"; //read only
+
+// TODO: side effects - call another function when a condition is met
+// const myFunction = () => {
+//   console.log("execute this function");
+// };
+
+// const handler = {
+//   set(obj, prop, value) {
+//     if (prop === "name" && value === "John") {
+//       myFunction();
+//     } else {
+//       console.log("can only access name property");
+//     }
+//   },
+// };
+
+// const proxy6 = new Proxy({}, handler);
+// proxy6.name = "John";    //execute this function
+// proxy6.age = 25; //can only access name property
+
+
