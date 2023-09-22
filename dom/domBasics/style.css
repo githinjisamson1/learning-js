@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(0, 0, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  /* background-color: yellow; */
+  width: 500px;
+  padding: 2rem;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 2rem;
+}
+.container h2 {
+  color: #fff;
+}
+ul.movies {
+  /* background-color: yellow; */
+  list-style-type: none;
+  margin-top: 0.5rem;
+}
+li.movie-item {
+  background-color: #fff;
+  margin: 2px 2px;
+}
