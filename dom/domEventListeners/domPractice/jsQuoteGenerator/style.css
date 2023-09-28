@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: url("library.jpg") no-repeat center center/ cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.main-heading {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.quote-section {
+  margin-top: 2rem;
+  background-color: #fff;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 2rem;
+  width: 500px;
+  height: 250px;
+  font-weight: 200;
+  box-shadow: 0px 0px 3px #000;
+}
+.person {
+  text-transform: uppercase;
+  color: red;
+  letter-spacing: 0.25rem;
+  font-weight: 700;
+}
+button {
+  margin-top: 0.5rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+/* effect upon button click */
+button:active {
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
