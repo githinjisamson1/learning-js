@@ -39,3 +39,4 @@ console.log(`Total salaries: $ ${total}`);
 // always return accumulator !!!
 // pass initialAccumulatorValue as second parameter to reduce
 // can reduce an array to - number/array/object
+

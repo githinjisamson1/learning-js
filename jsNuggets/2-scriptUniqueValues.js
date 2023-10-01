@@ -41,10 +41,13 @@ console.log(categories);
 const result2 = document.querySelector("#result2");
 
 categoryButtons = categories.map((category) => {
-  return `<button>${category}</button>`;
+  const button = document.createElement("button");
+  button.textContent = category;
+  result2.appendChild(button);
 });
 
-result2.innerHTML = categoryButtons.join(" ");
+// OR
+// result2.innerHTML = categoryButtons.join(" ");
 
 // TODO: Set
 // only stores unique values

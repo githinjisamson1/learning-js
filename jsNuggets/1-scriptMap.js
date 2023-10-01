@@ -34,11 +34,14 @@ const newPeople = people.map((person) => {
 // iterate then render to browser
 const result = document.querySelector("#result");
 const namesOfPeople = people.map((person) => {
-  return `<h1>${person.name}</h1>`;
+  const h2 = document.createElement("h2");
+  h2.textContent = person.name;
+  result.appendChild(h2);
 });
 
+// OR
 // separate items using space
-result.innerHTML = namesOfPeople.join("");
+// result.innerHTML = namesOfPeople.join("");
 
 console.log(agesPeople);
 console.log(agesPeopleDoubled);

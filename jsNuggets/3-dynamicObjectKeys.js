@@ -33,5 +33,6 @@ updateState("gender", "male"); //add
 updateState("name", "Peter");
 console.log(state);
 
+// TODO: 
 // dynamic object keys
 // state[keyName] = value

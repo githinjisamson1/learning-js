@@ -39,6 +39,6 @@ console.log(adult);
 // TODO:
 // filter returns an array of matches
 // changes the size of original array
-// array[0].position
+// array[0].position to access properties
 
 // find returns a single first match/object, obj.position
